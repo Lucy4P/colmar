@@ -65,7 +65,7 @@ nav span:last-child a {
 
 .banner {
   background-color: #bddace;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
   display: flex;
   justify-content: flex-start;
   position: relative;
@@ -126,6 +126,22 @@ h1, h2, .cta {
   font-size: 1.3rem;
 }
 
+.info-section {
+  border: 1px solid red;
+  position: relative;
+  top: 4rem;
+}
+
+
+.info-section img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+/* Set breakpoint based on design and phone screen size consideration*/
 @media only screen and (max-width: 700px){
   .mobile {
     display: flex;
