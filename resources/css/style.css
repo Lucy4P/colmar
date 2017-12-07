@@ -1,0 +1,143 @@
+html {
+  font-size: 16px;
+  width: 100%;
+}
+
+body {
+  color: #43464b;
+
+}
+
+header {
+  height: 4rem;
+  /*border: 1px solid red;*/
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+}
+
+
+.logo {
+  display: flex;
+  margin-left: 1.5rem;
+  height: 2rem;
+  font-family: "Graduate", serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  align-items: center;
+  /*border: 1px dashed blue;*/
+}
+
+.logo .academy {
+  color: #fd5536;
+  font-weight: 500;
+}
+
+.logo a {
+  letter-spacing: 0.2rem;
+}
+
+nav {
+  /*border: 1px solid green;*/
+  margin-right: 0.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+nav span {
+  padding-right: 1rem;
+}
+
+nav a:hover {
+  color: #fd5536;
+  text-shadow: 0.05rem 0.05rem #bddace;
+}
+
+nav span:last-child a {
+  color: #fd5536;
+}
+
+.mobile {
+  display: none;
+}
+
+
+.banner {
+  background-color: #bddace;
+  /*border: 1px solid red;*/
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  top: 4rem;
+}
+
+.img-container {
+  margin: 2rem 1.5rem;
+  width: 60%;
+}
+
+.banner img {
+  /*border: 2px solid white;*/
+  width: 100%;
+  height: auto;
+}
+
+.banner-text {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  justify-content: center;
+  line-height: 1.4;
+  width: 40%;
+  margin-right: 2rem;
+}
+
+h1 {
+font-weight: bold;
+font-size: 2.6rem;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+}
+
+.cta {
+  background-color: #fd5536;
+  color: white;
+  padding: 0.5rem 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+h1, h2, .cta {
+  margin-bottom: 2.3rem;
+  width: 75%;
+}
+
+.cta:hover {
+  border: 2px solid white;
+  border-radius: 5rem;
+}
+
+@media only screen and (max-width: 550px){
+  .mobile {
+    display: flex;
+    border: 1px solid yellow;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+  .logo, nav {
+    display: none;
+  }
+}
