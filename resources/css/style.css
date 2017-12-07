@@ -1,11 +1,10 @@
 html {
   font-size: 16px;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 body {
   color: #43464b;
-
 }
 
 header {
@@ -19,7 +18,6 @@ header {
   z-index: 100;
   background-color: white;
 }
-
 
 .logo {
   display: flex;
@@ -64,7 +62,6 @@ nav span:last-child a {
 .mobile {
   display: none;
 }
-
 
 .banner {
   background-color: #bddace;
@@ -125,9 +122,11 @@ h1, h2, .cta {
 .cta:hover {
   border: 2px solid white;
   border-radius: 5rem;
+  text-shadow: 0.05rem 0.05rem #43464b;
+  font-size: 1.3rem;
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 700px){
   .mobile {
     display: flex;
     border: 1px solid yellow;
@@ -140,4 +139,39 @@ h1, h2, .cta {
   .logo, nav {
     display: none;
   }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .img-container {
+    width: 100%;
+    margin:0;
+  }
+
+  .banner-text {
+    margin: 2rem 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .cta {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+
+
 }
