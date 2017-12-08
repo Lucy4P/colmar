@@ -33,10 +33,13 @@ header {
 .logo .academy {
   color: #fd5536;
   font-weight: 500;
+  font-family: "Graduate", serif;
+  font-size: 1.5rem;
 }
 
 .logo a {
   letter-spacing: 0.2rem;
+  font-size: 1.5rem;
 }
 
 nav {
@@ -91,24 +94,54 @@ nav span:last-child a {
   justify-content: center;
   line-height: 1.4;
   width: 40%;
-  margin-right: 2rem;
+  /*padding-right: 2rem;*/
+}
+
+.banner-text p {
+  font-size: 1.5rem;
+  margin-bottom: 2.3rem;
 }
 
 h1 {
 font-weight: bold;
 font-size: 2.6rem;
+font-family: "Open Sans", sans-serif;
 }
 
 h2 {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
+  font-family: "Open Sans", serif;
+  font-size: 2.1rem;
+  font-weight: bold;
 }
+
+h3 {
+  font-family: "Graduate", serif;
+  margin: 1rem 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+}
+
+span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.read {
+  color: #fd5536;
+}
+
 
 .cta {
   background-color: #fd5536;
   color: white;
   padding: 0.5rem 0;
-  width: 100%;
+  width: 85%;
   text-align: center;
   font-size: 1.2rem;
   font-weight: 500;
@@ -116,7 +149,6 @@ h2 {
 
 h1, h2, .cta {
   margin-bottom: 2.3rem;
-  width: 75%;
 }
 
 .cta:hover {
@@ -130,13 +162,90 @@ h1, h2, .cta {
   border: 1px solid red;
   position: relative;
   top: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2rem;
 }
+
 
 
 .info-section img {
   width: 100%;
   height: auto;
 }
+
+.info-section span {
+  color: #fd5536;
+  font-weight: bold;
+}
+
+.info-column1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.info-text1 {
+  width: 100%;
+  text-align:left;
+  margin: 2rem 0;
+}
+
+.info-text1 h2, p {
+  margin-bottom: 1.5rem;
+}
+
+.info-column2 {
+  width: 40%;
+  border: 1px solid yellow;
+}
+
+.info-column2 p {
+  font-size: 1rem;
+}
+
+.info-img-container {
+  width: 35%;
+  margin: 1rem;
+  border: 1px solid green;
+}
+
+.info-img-container img {
+  width: 100%;
+  height: auto;
+}
+
+.main-img-container img {
+  width: 100%;
+  height: auto;
+}
+
+.infotext {
+  margin-bottom: 0.5rem;
+}
+
+.infotext:hover {
+  background-color:#bddace;
+}
+
+
+.orientation, .campus, .lecture {
+  /*margin-top: 1rem;*/
+  display: flex;
+  align-items: center;
+  /*padding: 0.4rem;*/
+  /*border: 1px solid black;*/
+}
+
+.specific-info {
+  width: 65%;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 
@@ -188,6 +297,14 @@ h1, h2, .cta {
     font-size: 1.2rem;
   }
 
+.info-section {
+  flex-direction: column;
+}
+
+.info-column1, .info-column2 {
+  width: 100%;
+  margin: 0;
+}
 
 
 }
