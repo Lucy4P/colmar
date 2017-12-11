@@ -121,6 +121,11 @@ h3 {
   font-weight: bold;
 }
 
+h4 {
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+}
+
 p {
   font-family: "Raleway", sans-serif;
   font-size: 1.2rem;
@@ -214,7 +219,7 @@ h1, h2, .cta {
 
 .info-img-container img {
   width: 100%;
-  height: auto;
+  vertical-align: middle;
 }
 
 .main-img-container img {
@@ -254,27 +259,46 @@ h1, h2, .cta {
   position: relative;
   top: 4rem;
   border: 1px solid black;
+  background-color: #bddace;
 }
 
 .courses-section h2 {
   text-align: center;
+  margin: 2rem 0;
 }
+
+
+
 .desktop-courses {
-  background-color: #bddace;
   border: 1px solid red;
-  margin: 0 4.5rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-
+  justify-content: center;
+  padding-left: 1rem;
 }
+
 
 .course-container {
   width: 27%;
+  min-width: 250px;
   background-color: white;
   border: 1px solid yellow;
   margin-bottom: 2rem;
+  margin-right: 2rem;
 }
+
+/*.left {
+  margin-left: 2rem;
+}
+
+.middle {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.right {
+  margin-right: 2rem;
+}*/
 
 .course-img-container {
   width: 100%;
@@ -283,8 +307,10 @@ h1, h2, .cta {
 
 .course-img-container img {
   width: 100%;
-  height: auto;
+  vertical-align: middle;
+  border: 1px solid red;
 }
+
 
 
 
@@ -296,7 +322,7 @@ h1, h2, .cta {
     border: 1px solid yellow;
     align-items: center;
     width: 100%;
-    justify-content: space-around;
+    /*justify-content: center;*/
     margin: 0;
   }
 
