@@ -116,14 +116,15 @@ h2 {
 
 h3 {
   font-family: "Graduate", serif;
-  margin: 1rem 0;
-  font-size: 1.4rem;
+  margin: 0.5rem 0;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
 h4 {
   font-family: "Open Sans", serif;
   font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 p {
@@ -287,6 +288,10 @@ h1, h2, .cta {
   margin-right: 2rem;
 }
 
+.course-descr-container {
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
 /*.left {
   margin-left: 2rem;
 }
