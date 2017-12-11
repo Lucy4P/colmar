@@ -250,6 +250,41 @@ h1, h2, .cta {
   display: none;
 }
 
+.courses-section {
+  position: relative;
+  top: 4rem;
+  border: 1px solid black;
+}
+
+.courses-section h2 {
+  text-align: center;
+}
+.desktop-courses {
+  background-color: #bddace;
+  border: 1px solid red;
+  margin: 0 4.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.course-container {
+  width: 27%;
+  background-color: white;
+  border: 1px solid yellow;
+  margin-bottom: 2rem;
+}
+
+.course-img-container {
+  width: 100%;
+  border: 1px solid green;
+}
+
+.course-img-container img {
+  width: 100%;
+  height: auto;
+}
 
 
 
