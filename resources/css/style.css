@@ -246,6 +246,10 @@ h1, h2, .cta {
   flex-direction: column;
 }
 
+.mobile-img {
+  display: none;
+}
+
 
 
 
@@ -304,6 +308,30 @@ h1, h2, .cta {
 .info-column1, .info-column2 {
   width: 100%;
   margin: 0;
+}
+
+.mobile-img {
+  display: block;
+}
+
+.info-img-container {
+  margin: 1rem;
+  width: 95%;
+}
+
+.orientation, .campus, .lecture {
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.specific-info {
+  width: 100%;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+
+.desktop-img {
+  display: none;
 }
 
 
