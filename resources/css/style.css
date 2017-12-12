@@ -316,6 +316,10 @@ h1, h2, .cta {
   border: 1px solid red;
 }
 
+.mobile-courses {
+  display: none;
+}
+
 
 
 
@@ -327,6 +331,7 @@ h1, h2, .cta {
     border: 1px solid yellow;
     align-items: center;
     width: 100%;
+    justify-content: space-around;
     /*justify-content: center;*/
     margin: 0;
   }
@@ -367,6 +372,14 @@ h1, h2, .cta {
     font-size: 1.2rem;
   }
 
+  .info-column1 {
+    display: none;
+  }
+
+  .info-section {
+    margin-top: 0;
+  }
+
 .info-section {
   flex-direction: column;
 }
@@ -382,7 +395,7 @@ h1, h2, .cta {
 
 .info-img-container {
   margin: 1rem;
-  width: 95%;
+  width: 90%;
 }
 
 .orientation, .campus, .lecture {
@@ -392,12 +405,58 @@ h1, h2, .cta {
 
 .specific-info {
   width: 100%;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   margin-left: 2rem;
 }
 
 .desktop-img {
   display: none;
+}
+
+.desktop-courses {
+  display: none;
+}
+
+.mobile-courses {
+  display: flex;
+  flex-direction: column;
+}
+
+.courses-section {
+  background-color: white;
+}
+
+.courses-section h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.courses {
+  text-align: left;
+}
+
+.courses:hover {
+}
+
+.courses p {
+  background-color: #bddace;
+  font-family: "Graduate", serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: 1px solid #43464b;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.courses p:hover {
+  background-color:#fd5536;
+  color: white;
+  border: 1px solid white;
 }
 
 
