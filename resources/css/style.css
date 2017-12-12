@@ -228,6 +228,11 @@ h1, h2, .cta {
   height: auto;
 }
 
+.main-img-container video {
+  width: 100%;
+
+}
+
 .infotext {
   margin-bottom: 0.5rem;
 }
@@ -263,9 +268,13 @@ h1, h2, .cta {
   background-color: #bddace;
 }
 
-.courses-section h2 {
+.courses-section, .thesis-section h2 {
   text-align: center;
   margin: 2rem 0;
+}
+
+.thesis-section {
+  display: flex;
 }
 
 
@@ -320,6 +329,15 @@ h1, h2, .cta {
   display: none;
 }
 
+.thesis {
+  position: relative;
+  top: 4rem;
+  text-align: center;
+}
+
+.thesis h2 {
+  margin: 2rem;
+}
 
 
 
